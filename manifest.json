@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Wario X-mas",
+    "description": "[It's a Vario Christmas miracle]",
+    "version": "69.420",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
